@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Business-Common" />
+        <module name="Business-Offline" />
+        <module name="Business-Produce-Mock-Data" />
+        <module name="Sparkmall-realtime" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Business-Common" target="1.8" />
+      <module name="Business-Offline" target="1.8" />
+      <module name="Business-Produce-Mock-Data" target="1.8" />
+      <module name="Sparklimit10" target="1.8" />
+      <module name="Sparkmall-realtime" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
